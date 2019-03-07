@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_longAnimTime"
+    android:transitionOrdering="together">
+    <changeBounds>
+        <arcMotion />
+    </changeBounds>
+    <changeImageTransform />
+    <fade
+        android:fadingMode="fade_in"
+        android:startDelay="@android:integer/config_mediumAnimTime">
+        <targets>
+            <target android:targetId="@id/transition_title" />
+        </targets>
+    </fade>
+</transitionSet>
