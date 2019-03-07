@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), ListFragment.SampleListProvider {
         listFragment.setSampleListListener(this)
         supportFragmentManager
                 .beginTransaction()
-                .replace(R.id.container, ScenesSample())
+                .replace(R.id.container, ExplodeAndEpicenterExample())
                 .commit()
     }
 
